@@ -19,7 +19,7 @@
       - name: npm install, make test-coverage
         run: |
           npm install
-          make test-coverage
+          jest --coverage
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
