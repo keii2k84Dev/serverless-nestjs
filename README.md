@@ -1,4 +1,7 @@
-# serverless-nestjs 
+![CI](https://github.com/keii2k84Dev/serverless-nestjs/workflows/CI/badge.svg)![eslint](https://github.com/keii2k84Dev/serverless-nestjs/workflows/eslint/badge.svg)![Greetings](https://github.com/keii2k84Dev/serverless-nestjs/workflows/Greetings/badge.svg)
+
+
+# serverless-nestjs
 This is an example of creating a function that runs as nestjs using the serverless framework. 
 Sample publish. https://mmjdx4zxmc.execute-api.ap-northeast-1.amazonaws.com/dev/
 

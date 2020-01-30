@@ -1,0 +1,16 @@
+name: batch-sample
+
+on:
+  schedule:
+    - cron: 1 * * * *
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: batch start
+        run: |
+          - echo batch start 
+          - date
+        env:
+          TZ: Asia/Tokyo
+    
