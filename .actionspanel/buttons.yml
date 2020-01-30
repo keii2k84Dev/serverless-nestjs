@@ -1,0 +1,9 @@
+# cd $YOUR_REPO
+# mkdir .actionspanel
+# touch .actionspanel/buttons.yml
+# cat << EOF > .actionspanel/buttons.yml
+buttons:
+  - title: Run CI
+    action: "CI"
+    description: Run your CI
+EOF
