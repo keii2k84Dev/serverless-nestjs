@@ -8,5 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: batch start
-        run: echo batch start 
+        run: |
+          - echo batch start 
+          - date
+        env:
+          TZ: Asia/Tokyo
     
