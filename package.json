@@ -2,7 +2,7 @@
   "name": "serverless-nestjs",
   "version": "0.0.0",
   "description": "description",
-  "author": "",
+  "author": "k-chunghwan",
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
