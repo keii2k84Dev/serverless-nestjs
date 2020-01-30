@@ -1,4 +1,4 @@
-name: batch-sample
+name: cron 1 * * * *
 
 on:
   schedule:
