@@ -1,8 +1,8 @@
-name: Greetings
+name: batch-sample
 
 on:
   schedule:
-    - cron: 0 * * * *
+    - cron: 1 * * * *
 jobs:
   batch:
     runs-on: ubuntu-latest
