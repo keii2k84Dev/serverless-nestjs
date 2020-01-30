@@ -1,3 +1,5 @@
+![CI](https://github.com/keii2k84Dev/serverless-nestjs/workflows/CI/badge.svg?branch=keii2k84Dev-patch-2)
+
 # serverless-nestjs
 This is an example of creating a function that runs as nestjs using the serverless framework. 
 Sample publish. https://mmjdx4zxmc.execute-api.ap-northeast-1.amazonaws.com/dev/
