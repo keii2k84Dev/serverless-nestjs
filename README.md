@@ -1,5 +1,7 @@
 ![CI](https://github.com/keii2k84Dev/serverless-nestjs/workflows/CI/badge.svg)![eslint](https://github.com/keii2k84Dev/serverless-nestjs/workflows/eslint/badge.svg)![Greetings](https://github.com/keii2k84Dev/serverless-nestjs/workflows/Greetings/badge.svg)
 
+[![Actions Panel](https://img.shields.io/badge/actionspanel-enabled-brightgreen)](https://www.actionspanel.app/app/keii2k84Dev/serverless-nestjs)
+
 
 # serverless-nestjs
 This is an example of creating a function that runs as nestjs using the serverless framework. 
