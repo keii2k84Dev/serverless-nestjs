@@ -13,5 +13,5 @@ jobs:
           # Github token
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # Specify a command to run the tests
-  #         test-command: # optional
+          test-command: npm run test:cov
     
