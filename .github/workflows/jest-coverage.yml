@@ -1,13 +1,15 @@
 on: 
   pull_request:
 
+name: jest coverage
 jobs:
   coverage:
-    - name: Jest Code Coverage Report
-      uses: ziishaned/jest-reporter-action@0.1.1
-      with:
-        # Github token
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        # Specify a command to run the tests
-#         test-command: # optional
+    runs-on: ubuntu-latest
+      - name: Jest Code Coverage Report
+        uses: ziishaned/jest-reporter-action@0.1.1
+        with:
+          # Github token
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # Specify a command to run the tests
+  #         test-command: # optional
     
