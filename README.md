@@ -78,7 +78,7 @@ See : https://serverless.com/blog/keep-your-lambdas-warm/
 
 These behavior can be fixed with the plugin serverless-plugin-warmup
 
-1 Install the plugin test
+1 Install the plugin 
 
 ```
 $ npm install serverless-plugin-warmup --save-dev
