@@ -1,1 +1,13 @@
 name: eslint
+
+on: 
+  pull_request:
+    branches: master
+
+jobs:
+  lint:
+    name: ESLint Action
+    runs-on: ubuntu-latest
+    steps:
+      - name: ESLint Action
+        uses: hallee/eslint-action@1.0.1 
