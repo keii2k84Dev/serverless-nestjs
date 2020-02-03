@@ -9,3 +9,6 @@ buttons:
   - title: Test Coveralls
     action: "Test Coveralls"
     description: Run Test Coveralls
+  - title: Test ActionsPanel
+    action: "Test ActionsPanel"
+    description: Test ActionsPanel
