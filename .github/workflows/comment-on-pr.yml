@@ -2,7 +2,7 @@ name: comment_on_pr
 
 on:
   pull_request:
-    types: synchronize
+    branches: master
 
 jobs:
   comment:
@@ -10,9 +10,8 @@ jobs:
     steps:
     - name: Create comments
       run: |
-        echo "1st" >> comments
-        echo "2nd" >> comments
-        echo "3rd" >> comments
+        npm install 
+        npm run test:cov >> comments
         sed -i -z 's/\n/\\n/g' comments
 
     - name: Post multi-line comments
