@@ -14,9 +14,9 @@ jobs:
     - name: Create comments
       run: |
         npm install 
-        echo "```" >> comments
+        echo \`\`\` >> comments
         npm run test:cov >> comments
-        echo "```" >> comments
+        echo \`\`\` >> comments
         sed -i -z 's/\n/\\n/g' comments
 
     - name: Post multi-line comments
