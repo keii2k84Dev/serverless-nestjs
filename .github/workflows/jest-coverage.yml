@@ -1,0 +1,17 @@
+on: 
+  pull_request:
+    
+
+name: jest coverage
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jest Code Coverage Report
+        uses: ziishaned/jest-reporter-action@0.1.1
+        with:
+          # Github token
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # Specify a command to run the tests
+          test-command: "yarn jest --coverage"
+    

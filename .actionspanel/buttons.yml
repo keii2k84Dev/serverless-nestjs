@@ -1,0 +1,11 @@
+# cd $YOUR_REPO
+# mkdir .actionspanel
+# touch .actionspanel/buttons.yml
+# cat << EOF > .actionspanel/buttons.yml
+buttons:
+  - title: Run tests
+    action: "run_tests"
+    description: Run your test
+  - title: Test Coveralls
+    action: "Test Coveralls"
+    description: Run Test Coveralls

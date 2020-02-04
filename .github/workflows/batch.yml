@@ -1,4 +1,4 @@
-name: batch-sample
+name: cron 1 * * * *
 
 on:
   schedule:
@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: batch start
-        run: |
-          - echo batch start 
-          - date
+        run: echo batch start 
+      - name: check date
+        run: date
         env:
           TZ: Asia/Tokyo
     

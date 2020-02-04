@@ -1,0 +1,10 @@
+on: repository_dispatch
+name: Run tests
+jobs:
+  test:
+    if: github.event.action == 'run_tests'
+    name: Run your tests
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "I just ran all your tests!"

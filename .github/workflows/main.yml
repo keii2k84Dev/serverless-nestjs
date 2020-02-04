@@ -14,6 +14,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: npm install 
       run: npm install 
+    - name: test github.actor
+      run: echo ${{ github.actor }}
     - name: test secret
       run: echo  ${{ secrets.AWS_ACCESS_KEY_ID }}   ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     - name: lint and test 
