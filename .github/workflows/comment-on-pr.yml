@@ -14,7 +14,9 @@ jobs:
     - name: Create comments
       run: |
         npm install 
+        echo "```" >> comments
         npm run test:cov >> comments
+        echo "```" >> comments
         sed -i -z 's/\n/\\n/g' comments
 
     - name: Post multi-line comments
@@ -24,5 +26,5 @@ jobs:
       run: |
         curl -X POST \
              -H "Authorization: token ${GITHUB_TOKEN}" \
-             -d "{\"body\": \"```\n $(cat comments) \n``` \"}" \
+             -d "{\"body\": \"$(cat comments)\"}" \
              ${URL}
